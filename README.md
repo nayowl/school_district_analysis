@@ -164,7 +164,7 @@ There is no difference found in the rounded up scores value of Figure 13 and Fig
 
 Figure 15 contains of two DataFrame before replacement of the Thomas High School data. The  DataFrame on top consists of non rounded values, while the DataFrame on the bottom is formatted to generate the rounded value. Figure 16 has the same format with Figure 15 with two DataFrame to display the data after replacement.
 
-There is no difference found in the rounded up scores value of Figure 15 and Figure 16.However, some slight difference appears in the unrounded value of those figures, specifically in the scores and percentages between the before and after replacement of the data for school type Charter( Thomas High School is in Charter type , hence it’s only impact in this type). For example, average math score is 83.473852 before the replacement and 83.465425 after the replacement. But because of the round up the value become 83.5 for both before and after replacement.
+There is no difference found in the rounded up scores value of Figure 15 and Figure 16.However, some slight difference appears in the unrounded value of those figures, specifically in the scores and percentages between the before and after replacement of the data for school type Charter( Thomas High School is in Charter type , hence it’s only impact in this type). For example, average math score is 83.473852 before the replacement and 83.465425 after the replacement. But because of the round up, the value become 83.5 for both before and after replacement.
 
 
 ## 4 Summary
