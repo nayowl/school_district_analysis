@@ -23,7 +23,7 @@ Software: Python 3.7.6 , Jupyter notebook, Pandas library
 
 ## 3 Results 
 
-To replace reading and math score for 9th grader students in Thomas High School to NaN,  .loc method will be used.  Figure 1 will show us the code in jupyter notebook to replace the code while Figure 2 will show us the result after the replacement.
+To replace reading and math score for 9th grader students in Thomas High School to NaN,  .loc method will be used.  Figure 1 will demonstrates the code in jupyter notebook to replace the code while Figure 2 demonstrates the result after the replacement.
 
 ![Figure 1 Code to Replace Nan](https://user-images.githubusercontent.com/88597187/133878454-de8035f6-fdaa-4d9a-89f0-9f78678ade8d.png)
 
@@ -34,7 +34,7 @@ To replace reading and math score for 9th grader students in Thomas High School 
 
 <sub>Figure 2 Results After Replacement  </sub>
 
-To have better understanding of the impact after the replacement, here is the summary:
+The following summary is presented to better understanding the impact after the replacement:
 
 **1.	District Summary**
 
@@ -48,7 +48,7 @@ To have better understanding of the impact after the replacement, here is the su
 <sub>Figure 4 District Summary After Replacement  </sub>
 
 
-Based on Figure 3 and Figure 4 above, there is  some difference in the district summary before and after replacement :
+Below are the differences found  in the district summary before and after replacement, based on Figure 3 and Figure 4 above, :
 
 •	The average math score decreased 0.1 point to 78.9 from 79
 
@@ -71,7 +71,7 @@ Based on Figure 3 and Figure 4 above, there is  some difference in the district 
 
 <sub>Figure 6 School Summary After Replacement   </sub>
 
-For the school summary comparation, it will be focused on Thomas High School because there is no difference for the other school.  Here is the summary for the field affected by the replacement (the value will be rounded to 2 decimal):
+The school summary comparison will be focused on Thomas High School because there is no difference for the other school.  Listed below are the summary of the field affected by the replacement (The value will be rounded to 2 decimal):
 
 •	The average math score decreased 0.07 point from 83.42 to 83.35 
 
@@ -96,7 +96,7 @@ For the school summary comparation, it will be focused on Thomas High School bec
 
 <sub>Figure 8 School Performance After Replacement   </sub>
 
-The DataFrame from Figure 7 and Figure 8 show us the top 5 high school performance based on the overall passing percentage of reading and math score. There is no difference on the order of the rank, although there is a decreased by 0.32% in the overall passing percentage from before and after replacement. Thomas High School still the second highest performance on the list, because the other school doesn’t surpass the overall passing percentage of Thomas High School.
+The DataFrame from Figure 7 and Figure 8 display the top 5 high school performance based on the overall passing percentage of reading and math score. There is no difference on the order of the rank, even though there is a decrease of 0.32% in the overall passing percentage from before and after replacement. Thomas High School still the second highest performance in the list, because the other school do not surpass the overall passing percentage of Thomas High School.
 
 
 **4.	Math and Reading Scores by Grade**
@@ -111,7 +111,7 @@ The DataFrame from Figure 7 and Figure 8 show us the top 5 high school performan
 
 <sub>Figure 10 Reading Scores by Grade Before and After Replacement </sub>
 
-Because the scores only altered for 9th Grader of Thomas High School, there is no change  for math and reading score for the other grade. By looking at Figure 9 and and Figure 10 we can see that the score for 9th grade has been altered to nan.
+There is no change  for math and reading score for the other grade, as the scores are only altered for 9th Grader of Thomas High School. This statement is indicated by the 9th grade score on Figure 9 and and Figure 10 which has been altered to nan.
 
 
 **5.	Scores by School Spending**
@@ -127,9 +127,9 @@ Because the scores only altered for 9th Grader of Thomas High School, there is n
 
 <sub>Figure 12 Scores by School Spending After Replacement </sub>
 
-Figure 11 contains of two DataFrame before replacement of the Thomas High School data. The above DataFrame is a DataFrame before formatting to round up the value, while the below DataFrame is a DataFrame after formatting. Figure 12 has the same format with Figure 11 with two DataFrame to shows us the data after replacement.
+Figure 11 contains of two DataFrame before replacement of the Thomas High School data. The  DataFrame on top consists of non rounded values, while the DataFrame on the bottom is formatted to generate the rounded value. Figure 12 has the same format with Figure 11 with two DataFrame to display the data after replacement.
 
-From Figure 11 and Figure 12 after the round up(below DataFrame) , the value for scores and percentages has no difference. But if we see more detailed value in the above DataFrame in both Figures there is slightly difference in value for all the scores and percentages between the before and after replacement of the data for spending ranges $630-$644( Thomas High School has spending ranges between $630-$644, that’s why it’s only impact in this range). For example, average math score is 78.518855 before the replacement and 78.502002 after the replacement. But because of the round up the value become 78.5 for both before and after replacement.
+There is no difference found in the rounded up scores value of Figure 11 and Figure 12.However, some slight difference appears in the unrounded value of those figures, specifically in the scores and percentages between the before and after replacement of the data for spending ranges $630-$644( Thomas High School has spending ranges between $630-$644, hence it’s only impact in this range). For example, average math score is 78.518855 before the replacement and 78.502002 after the replacement. But because of the round up , the value become 78.5 for both before and after replacement.
 
 
 **6.	Scores by School Size**
@@ -144,9 +144,9 @@ From Figure 11 and Figure 12 after the round up(below DataFrame) , the value for
 
 <sub>Figure 14 Scores by School Size After Replacement   </sub>
 
-Figure 13 contains of two DataFrame before replacement of the Thomas High School data. The above DataFrame is a DataFrame before formatting to round up the value, while the below DataFrame is a DataFrame after formatting. Figure 14 has the same format with Figure 13 with two DataFrame to shows us the data after replacement.
+Figure 13 contains of two DataFrame before replacement of the Thomas High School data. The  DataFrame on top consists of non rounded values, while the DataFrame on the bottom is formatted to generate the rounded value. Figure 14 has the same format with Figure 13 with two DataFrame to display the data after replacement.
 
-From Figure 13 and Figure 14 after the round up(below DataFrame) , the value for scores and percentages has no difference. But if we see more detailed value in the above DataFrame in both Figures there is slightly difference in value for all the scores and percentages between the before and after replacement of the data for school size Medium( Thomas High School is in Medium size , that’s why it’s only impact in this size). For example, average math score is 83.374684 before the replacement and 83.361201 after the replacement. But because of the round up the value become 83.4 for both before and after replacement.
+There is no difference found in the rounded up scores value of Figure 13 and Figure 14.However, some slight difference appears in the unrounded value of those figures, specifically in the scores and percentages between the before and after replacement of the data for school size Medium( Thomas High School is in Medium size , hence it’s only impact in this size). For example, average math score is 83.374684 before the replacement and 83.361201 after the replacement. But because of the round up the value become 83.4 for both before and after replacement.
 
 
 **7.	Scores by School Type**
@@ -162,31 +162,31 @@ From Figure 13 and Figure 14 after the round up(below DataFrame) , the value for
 
 <sub>Figure 16 Scores by School Type After Replacement  </sub>
 
-Figure 15 contains of two DataFrame before replacement of the Thomas High School data. The above DataFrame is a DataFrame before formatting to round up the value, while the below DataFrame is a DataFrame after formatting. Figure 16 has the same format with Figure 15 with two DataFrame to shows us the data after replacement.
+Figure 15 contains of two DataFrame before replacement of the Thomas High School data. The  DataFrame on top consists of non rounded values, while the DataFrame on the bottom is formatted to generate the rounded value. Figure 16 has the same format with Figure 15 with two DataFrame to display the data after replacement.
 
-From Figure 15 and Figure 16 after the round up(below DataFrame) , the value for scores and percentages has no difference. But if we see more detailed value in the above DataFrame in both Figures there is slightly difference in value for all the scores and percentages between the before and after replacement of the data for school type Charter( Thomas High School is in Charter type , that’s why it’s only impact in this type). For example, average math score is 83.473852 before the replacement and 83.465425 after the replacement. But because of the round up the value become 83.5 for both before and after replacement.
+There is no difference found in the rounded up scores value of Figure 15 and Figure 16.However, some slight difference appears in the unrounded value of those figures, specifically in the scores and percentages between the before and after replacement of the data for school type Charter( Thomas High School is in Charter type , hence it’s only impact in this type). For example, average math score is 83.473852 before the replacement and 83.465425 after the replacement. But because of the round up the value become 83.5 for both before and after replacement.
 
 
 ## 4 Summary
 
-After reading and math scores for the ninth grade at Thomas High School have been replaced with Nans, here is the changes in the school district analysis:
+The following is the changes in the school district analysis, based of the reading and math scores for 9th grades at Thomas High School which have been replaced with NaN:
 
 •	District Summary 
 
-For the district summary, there are decreased in the average math score, the passing percentage for mathematic, the passing percentage for reading and the overall passing percentage after the replacement. The maximum difference is 0.3% for the overall passing percentage and the minimum is 0.1 for the average math score and 0.1% for the passing percentage for reading. The other field is not affected by the replacement. 
+There are some decrease in the average math score, the passing percentage for mathematic, the passing percentage for reading and the overall passing percentage after the replacement. The maximum difference is 0.3% for the overall passing percentage and the minimum is 0.1 for the average math score and 0.1% for the passing percentage for reading. The other field is not affected by the replacement. 
 
 •	School Summary
 
-There are decreased in scores and percentages for average math score, percentage passing math, percentage passing reading and overall passing percentage after the replacement. The maximum the point or percentage decreased is in the overall passing percentage with 0.31 % and the minimum is the average math score with 0.07 point. Meanwhile, there is an increased in the average reading score with 0.05-point difference.
+There are some decrease in scores and percentages for average math score, percentage passing math, percentage passing reading and overall passing percentage after the replacement. The maximum the point or percentage decrease is in the overall passing percentage with 0.31 % and the minimum is the average math score with 0.07 point. There is also an increase in the average reading score with 0.05-point difference.
 
 •	School Performance
 
-The school performance is a rank of all the school based on the overall passing percentage. Although there is a change in percentage for Thomas High School after the replacement, the rank of Thomas High School did not change. Thomas High School is still in 2nd rank of the highest school performance. This happened because the new value after the replacement is 90.630324% , while The 3rd  highest school performance overall passing percentage is 90.599455%.
+The school performance is a rank of all the school based on the overall passing percentage. Although there is a change in percentage for Thomas High School after the replacement, Thomas High School rank is not changing at 2nd of the highest school performance. This is because the new value after the replacement is 90.630324% , while The 3rd  highest school performance overall passing percentage is 90.599455%.
 
 •	Scores by Grade
 
-There is no change in 10th-12th grade scores because the value is only replaced to Nan for 9th grade student in Thomas High School. 
+There is no change in 10th-12th grade scores because the 9th grade students in Thomas High School are the only ones which have  of math and reading score value replaced to NaN. 
 
 •	Scores by school spending, school size and school type
 
-Although there are changes in scores by school spending for range $630-$644 , Medium School Size and Charter Type because of Thomas High School, the difference is too small. After the round up the value from before and after the replacement shows the same value. 
+Although there are changes in scores by school spending in the range of $630-$644 , Medium School Size and Charter Type, the difference is too small. After the round up the value from before and after the replacement shows the same value. 
